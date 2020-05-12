@@ -3,9 +3,9 @@ using namespace std;
 int main(int argc, char** argv)
 {
 	int day,mile, money;
-	cout << "¨½µ{¼Æ¡G";
+	cout << "é‡Œç¨‹æ•¸ï¼š";
 	cin >> mile;
-	cout << "¿é¤J1¥Nªí¥Õ¤Ñ,¿é¤J2¥Nªí±ß¤W" << endl;
+	cout << "è¼¸å…¥1ä»£è¡¨ç™½å¤©,è¼¸å…¥2ä»£è¡¨æ™šä¸Š" << endl;
 	cin >> day;
 	if (day == 1)
 	{
@@ -35,7 +35,7 @@ int main(int argc, char** argv)
 				money = 60 + ((mile - 1000) / 300) * 6;
 		}
 	}
-	cout << "¨®¿ú¡G" << money << endl;
+	cout << "è»ŠéŒ¢ï¼š" << money << endl;
 	system("PAUSE");
 	return 0;
-}*/
+}
